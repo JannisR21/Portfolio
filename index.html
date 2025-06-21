@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannis Ruhland - Wirtschaftsinformatiker & Anwendungsentwickler</title>
+    <meta name="description" content="Portfolio von Jannis Ruhland - Staatlich geprüfter Wirtschaftsinformatiker mit Fokus auf Anwendungsentwicklung.">
+    <meta name="keywords" content="Wirtschaftsinformatiker, Anwendungsentwicklung, Portfolio, Saarland">
+    
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Jannis Ruhland</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Über mich</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projekte</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li><button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+   <section id="home" class="hero">
+    <div class="hero-background">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">
+                Hallo, ich bin <span class="gradient-text">Jannis</span>
+            </h1>
+            <p class="hero-tagline">Staatlich geprüfter Wirtschaftsinformatiker</p>
+            <p class="hero-description">
+                Abschluss im Juni 2025 im Schwerpunkt Anwendungsentwicklung • 
+                Praktische Erfahrungen durch Praktika und Ferienjobs bei Saarstahl AG & Dillinger Hütte
+            </p>
+
+            <div class="hero-image">
+                <img src="Profilbild.JPEG" alt="Profilbild von Jannis Ruhland" class="profile-img">
+            </div>
+
+            <div class="availability-badge">
+                <i class="fas fa-calendar-check"></i>
+                <span>Verfügbar ab Juli 2025</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Projekte ansehen
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Kontakt aufnehmen
+                </a>
+                <a href="/lebenslauf.pdf" class="btn btn-download" download>
+                    <i class="fas fa-download"></i>
+                    CV Download
+                </a>
+            </div>
+            <div class="hero-tags">
+                <span class="tag">C# / WPF</span>
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+                <span class="tag">GitHub</span>
+                <span class="tag">Blazor</span>
+                <span class="tag">.NET</span>
+                <span class="tag">SAP</span>
+                <span class="tag">Saarland / Remote möglich</span>
+                <br>
+                <span class="tag">Python</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+    </div>
+</section>
+    <!-- About Section -->
+   <section id="about" class="about">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Über mich</h2>
+            <p class="section-subtitle">Praktische Erfahrung trifft auf frisches Fachwissen</p>
+        </div>
+        <div class="about-content">
+            <div class="about-stats" data-aos="fade-right">
+                <div class="stat-card">
+                    <i class="fas fa-business-time"></i>
+                    <h3>8+ Praktika</h3>
+                    <p>In verschiedenen IT- und Wirtschaftsbereichen</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>3 Hauptprojekte</h3>
+                    <p>Von Trading-Simulator bis OS-Simulation</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Juni 2025</h3>
+                    <p>Abschluss als Wirtschaftsinformatiker</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Englisch B1-B2</h3>
+                    <p>Technisches Englisch & Dokumentation</p>
+                </div>
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <p>
+                    Als angehender Wirtschaftsinformatiker verbinde ich technisches Know-how mit 
+                    betriebswirtschaftlichem Verständnis. Durch meine vielfältigen Praktika bei 
+                    renommierten Unternehmen wie <strong>Saarstahl AG</strong> und der <strong>Dillinger Hütte</strong> 
+                    konnte ich bereits wertvolle Einblicke in reale IT-Prozesse gewinnen.
+                </p>
+                <p>
+                    Meine Stärke liegt in der praktischen Umsetzung: Von der Installation von 
+                    Cisco-Netzwerktechnik über erste Schritte in SAP ABAP bis hin zu selbstständig 
+                    entwickelten Anwendungen in C# und Python. Dabei schätze ich besonders die 
+                    Herausforderung, komplexe Probleme in elegante Lösungen zu überführen.
+                </p>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Flexibler Arbeitsort</strong>
+                            <p>Saarland-basiert • 100% Remote möglich</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <strong>Teamorientiert</strong>
+                            <p>Die Atmosphäre und das Team sind mir wichtiger als die Unternehmensgröße</p>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-rocket"></i>
+                        <div>
+                            <strong>Lernbereit</strong>
+                            <p>Kontinuierliche Weiterbildung über Udemy und eigene Projekte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Meine Skills</h2>
+                <p class="section-subtitle">Technologien und Kompetenzen, die ich durch Ausbildung und Praxis erworben habe</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Frontend
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend & Desktop
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C# & WPF</span>
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL & Entity Framework</span>
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>API Integration</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Tools & Weitere
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>Git & GitHub</span>
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Blazor Server</span>
+                            <div class="skill-level" data-level="75"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>SAP Grundlagen</span>
+                            <div class="skill-level" data-level="60"></div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wrench"></i>
+                            <span>Hardware & IT-Support</span>
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Meine Projekte</h2>
+            <p class="section-subtitle">Eine Auswahl meiner Arbeiten</p>
+        </div>
+        
+        <div class="project-filters" data-aos="fade-up">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="desktop">Desktop</button>
+            <button class="filter-btn" data-filter="fintech">Fintech</button>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Virtuelles Betriebssystem -->
+            <div class="project-card" data-category="desktop" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <div class="project-slideshow">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe1.png" class="slide active" alt="Screenshot 1">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe2.png" class="slide" alt="Screenshot 2">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe3.png" class="slide" alt="Screenshot 3">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe4.png" class="slide" alt="Screenshot 4">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe5.png" class="slide" alt="Screenshot 5">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe6.png" class="slide" alt="Screenshot 6">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe7.png" class="slide" alt="Screenshot 7">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe8.png" class="slide" alt="Screenshot 8">
+                        <img src="ImagesVirtuellesBetriebssystem/VBe9.png" class="slide" alt="Screenshot 9">
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/JannisR21/VirtuellesBetriebssystem" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/JannisR21/VirtuellesBetriebssystem" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Virtuelles Betriebssystem (SimOS)</h3>
+                    <p class="project-description">
+                        Ein persönliches Hobby-Projekt: Vollständige Desktop-OS-Simulation mit 
+                        Fenstermanagement, Prozess-Manager, virtualem Dateisystem und integrierten 
+                        Apps wie Terminal, Explorer und Browser. Inklusive Sperrbildschirm und System-Tray - 
+                        entwickelt aus purer Freude am Programmieren!
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C# WPF</span>
+                        <span class="tech-tag">Material Design</span>
+                        <span class="tech-tag">MVVM</span>
+                        <span class="tech-tag">Dependency Injection</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blazor Oldtimer-Vermietung -->
+            <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <div class="project-slideshow">
+                        <img src="ImagesBlazor/Blazor1.png" class="slide active" alt="Screenshot 1">
+                        <img src="ImagesBlazor/Blazor2.png" class="slide" alt="Screenshot 2">
+                        <img src="ImagesBlazor/Blazor3.png" class="slide" alt="Screenshot 3">
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/JannisR21/BlazorWebServer" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/JannisR21/BlazorWebServer" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Blazor Oldtimer-Vermietung</h3>
+                    <p class="project-description">
+                        Im Rahmen eines Schulprojekts beschäftigten wir uns mit dem Web-Framework Blazor und evaluierten die Möglichkeit, 
+                        einen performanten Datenbankzugriff mithilfe von Dapper umzusetzen. Ziel war es, die Anwendung lokal über einen Webserver (localhost) 
+                        bereitzustellen und so ein vollständiges, praxisnahes Anwendungsszenario abzubilden.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C# Blazor</span>
+                        <span class="tech-tag">Dapper</span>
+                        <span class="tech-tag">Entity Framework Core</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Virtuelle Börsenplattform -->
+            <div class="project-card" data-category="fintech" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <div class="project-slideshow">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse1.png" class="slide active" alt="Screenshot 1">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse2.png" class="slide" alt="Screenshot 2">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse3.png" class="slide" alt="Screenshot 3">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse4.png" class="slide" alt="Screenshot 4">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse5.png" class="slide" alt="Screenshot 5">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse6.png" class="slide" alt="Screenshot 6">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse7.png" class="slide" alt="Screenshot 7">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse8.png" class="slide" alt="Screenshot 8">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse9.png" class="slide" alt="Screenshot 9">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse10.png" class="slide" alt="Screenshot 10">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse11.png" class="slide" alt="Screenshot 11">
+                        <img src="ImagesVirtuelleBörsenplattform/Börse12.png" class="slide" alt="Screenshot 12">
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/JannisR21/Hausarbeit-VirtuelleBoersenplattform" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/JannisR21/Hausarbeit-VirtuelleBoersenplattform" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Virtuelle Börsenplattform</h3>
+                    <p class="project-description">
+                        Meine Abschlussarbeit der HBFSWI: Trading-Simulator mit echten Marktdaten 
+                        über die Twelve Data API. Portfolio-Management für 100+ handelbare Aktien und ETFs, 
+                        E-Mail-Service und Echtzeit-Gewinn/Verlust-Berechnung.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C# WPF</span>
+                        <span class="tech-tag">Entity Framework</span>
+                        <span class="tech-tag">Material Design</span>
+                        <span class="tech-tag">SQL Server</span>
+                        <span class="tech-tag">MVVM</span>
+                        <span class="tech-tag">Twelve Data API</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Festplatten-Analyzer -->
+            <div class="project-card" data-category="desktop" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-image">
+                    <div class="project-slideshow">
+                        <img src="ImagesScanner/Scanner1.png" class="slide active" alt="Screenshot 1">
+                    </div>
+                    <div class="project-overlay">
+                        <a href="https://github.com/JannisR21/Datentr-ger-Scanner" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                        <a href="https://github.com/JannisR21/Datentr-ger-Scanner" class="project-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Festplatten-Analyzer</h3>
+                    <p class="project-description">
+                        Entstanden aus einem konkreten Problem: Wie finde ich schnell, was 
+                        meinen Speicherplatz belegt? System-Tool zur Speicherplatz-Optimierung 
+                        mit intelligentem System-Schutz, Multi-Drive-Scanning, sicheren 
+                        Löschfunktionen und Export-Features.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Tkinter</span>
+                        <span class="tech-tag">psutil</span>
+                        <span class="tech-tag">Threading</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="experience" class="experience">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2 class="section-title">Berufserfahrung & Bildung</h2>
+            <p class="section-subtitle">Mein Weg vom Schüler zum Wirtschaftsinformatiker - mit vielen praktischen Stationen</p>
+        </div>
+        
+        <div class="timeline-container">
+            <!-- Bildungsweg -->
+            <div class="timeline-section" data-aos="fade-right">
+                <h3 class="timeline-title">
+                    <i class="fas fa-graduation-cap"></i>
+                    Bildungsweg
+                </h3>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2025</div>
+                        <div class="timeline-content">
+                            <h4>Staatlich geprüfter Wirtschaftsinformatiker</h4>
+                            <p class="timeline-company">Höhere Berufsfachschule für Wirtschaftsinformatik am Standort Kbbz Halberg</p>
+                            <ul class="timeline-details">
+                                <li>Schwerpunkt: Anwendungsentwicklung</li>
+                                <li>Abschlussprojekt: Virtuelle Börsenplattform</li>
+                                <li>Abschluss: Juni 2025</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2023</div>
+                        <div class="timeline-content">
+                            <h4>Fachabitur - Wirtschaft</h4>
+                            <p class="timeline-company">KBBZ Saarlouis Fachoberschule</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2020</div>
+                        <div class="timeline-content">
+                            <h4>Mittlerer Bildungsabschluss</h4>
+                            <p class="timeline-company">KBBZ Saarlouis Handelsschule</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2017 - 2018</div>
+                        <div class="timeline-content">
+                            <h4>Schulisches Berufsgrundbildungsjahr</h4>
+                            <p class="timeline-company">KBBZ Saarlouis</p>
+                        </div>
+                    </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-date">2012 - 2017</div>
+                        <div class="timeline-content">
+                            <h4>Hauptschulabschluss</h4>
+                            <p class="timeline-company">Gemeinschaftsschule am Warndtwald Überherrn</p>
+                        </div>
+                    </div>
+
+                     <div class="timeline-item">
+                        <div class="timeline-date">2008 - 2012</div>
+                        <div class="timeline-content">
+                            <p class="timeline-company">Grundschule St. Oranna Berus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Berufserfahrung -->
+            <div class="timeline-section" data-aos="fade-left">
+                <h3 class="timeline-title">
+                    <i class="fas fa-briefcase"></i>
+                    Praktische Erfahrungen
+                </h3>
+                
+                <div class="timeline">
+                    <div class="timeline-item highlight">
+                        <div class="timeline-date">06/2024 - 07/2024</div>
+                        <div class="timeline-content">
+                            <h4>Netzwerktechnik-Praktikum</h4>
+                            <p class="timeline-company">Dillinger Hütte, Ferienjob</p>
+                            <ul class="timeline-details">
+                                <li>Netzwerkinstallation und -konfiguration mit Cisco Switches</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item highlight">
+                        <div class="timeline-date">07/2023 - 08/2023</div>
+                        <div class="timeline-content">
+                            <h4>Saarschmiede Ferienjob</h4>
+                            <p class="timeline-company">Saarstahl AG</p>
+                            <ul class="timeline-details">
+                                <li>Einblick in industrielle Prozesse</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">10/2021 - 08/2022</div>
+                        <div class="timeline-content">
+                            <h4>FOS-Praktikum IKS</h4>
+                            <p class="timeline-company">Saarstahl AG Völklingen</p>
+                            <ul class="timeline-details">
+                                <li>Erste Berührung mit SAP ABAP</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">08/2021 - 09/2021</div>
+                        <div class="timeline-content">
+                            <h4>FOS-Praktikum</h4>
+                            <p class="timeline-company">Deltatec GmbH</p>
+                            <ul class="timeline-details">
+                                <li>Html Layouts erstellt für E-Commerce</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">08/2020 - 07/2021</div>
+                        <div class="timeline-content">
+                            <h4>FOS-Praktikum Verwaltung</h4>
+                            <p class="timeline-company">Gemeinde Überherrn</p>
+                            <ul class="timeline-details">
+                                <li>Hardware Installation </li>
+                                <li>Büroorganisation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <!-- Quick Info -->
+                <div class="footer-section">
+                    <h3>Jannis Ruhland</h3>
+                    <p class="footer-subtitle">Angehender Wirtschaftsinformatiker</p>
+                    <div class="footer-badges">
+                        <span class="badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            Abschluss Juni 2025
+                        </span>
+                        <span class="badge">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Saarland / Remote
+                        </span>
+                    </div>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:jannisruhland@icloud.com">jannisruhland@icloud.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+4916290224157">+49 162 9022 4157</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-home"></i>
+                            <span>66802 Überherrn</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-list">
+                        <li>
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/JannisR21" target="_blank">GitHub Profil</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-download"></i>
+                            <a href="lebenslauf.pdf" download>Lebenslauf (PDF)</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-car"></i>
+                            <span>Führerschein Klasse B</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Availability -->
+                <div class="footer-section">
+                    <h4>Verfügbarkeit</h4>
+                    <div class="availability-info">
+                        <p><strong>Ab Juli 2025</strong></p>
+                        <p>Vollzeit</p>
+                        <p class="remote-info">
+                            <i class="fas fa-laptop-house"></i>
+                            100% Remote möglich
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
